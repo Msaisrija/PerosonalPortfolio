@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Soft cyan background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container Styling */
+        .profile-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Text Styling */
+        h1 {
+            color: #00796b; /* Deep teal for header */
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Contact and Social Links */
+        .contact-info, .social-links, .projects {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .contact-info li, .social-links li, .projects li {
+            margin: 5px 0;
+        }
+
+        .social-links a, .projects a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        .social-links a:hover, .projects a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <!-- Name and Introduction -->
+        <h1>Sai Srija</h1>
+        <p>Welcome to my profile! I am an aspiring Java Full Stack Developer and AI/ML engineer passionate about building impactful software solutions.</p>
+
+        <!-- Contact Information -->
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:saisreejamugala.com">saisreejamugala.com </a></li>
+            <li>Phone: 8309953494</li>
+        </ul>
+
+        <!-- Social Media Links -->
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/sai-srija-mugala-871a751b5/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        </ul>
+
+        <!-- Projects -->
+        <h2>Projects</h2>
+        <ul class="projects">
+            <li><a href="https://project1link.com" target="_blank">Project 1: Budget Tracker App</a> - A Python application to track and manage personal finances.</li>
+            <li><a href="https://project2link.com" target="_blank">Project 2: Personal Journal App</a> - A simple journaling tool to log and organize daily thoughts.</li>
+        </ul>
+    </div>
+</body>
+</html>
